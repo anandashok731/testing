@@ -1,0 +1,103 @@
+@font-face {
+    font-family: font;
+    src: url(asset/font/GTZirkon-Book.woff2);
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: font;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.header li{
+    position: relative;
+    left: 700px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.header a:hover{
+    cursor: pointer;
+    color: #07691c;
+}
+.header li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #b5b5b5;
+}
+.main{
+    background-color: #ffe8dc;
+    text-align: center;
+    margin-left: 300px;
+    padding-bottom: 20px;
+    color: #2b2b2b;
+}
+.banner img{
+    width: 250px;
+    position: relative;
+    top: 50px;
+    left: -420px;
+    padding: 20px 0;
+}
+.banner h2{
+    float: left;
+    position: relative;
+    left: -15px;
+    font-weight: 500;
+}
+.post{
+    display: block;
+    padding-left: 20px;
+    text-align: justify;
+    padding-top: 30px;
+}
+.post p.head{
+    font-size: 18px;
+}
+.post p span{
+    color: #07691c;
+}
+.banner p{
+    text-align: justify;
+    padding-left: 350px;
+}
+.bottom{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 350px;
+    column-gap: 50px;
+    align-self: center;
+}
+.bottom a{
+    text-decoration: none;
+    color: #2b2b2b;
+}
+.section li {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.section li span a{
+    color: #b5b5b5;
+}
+.social a{
+    display: grid;
+    line-height: 40px;
+}
+.footer{
+    color: #b5b5b5;
+    font-size: 12px;
+    margin-left: 350px;
+}
+.footer a{
+    color: #b5b5b5;
+}
+@media screen and (max-width:320px){
+
+}
